@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route } from "react-router-dom"; // 라우터 import
+import { Routes, Route, BrowserRouter } from "react-router-dom"; // 라우터 import
 import LandingPage from "./pages/LandingPage";
 import SignPage from "./pages/SignPage";
 //import OnBoardingPage from "./pages/OnBoardingPage";
@@ -28,44 +28,46 @@ function App() {
   };
 
   return (
-    <Routes basename={process.env.REACT_APP_API_BASE_URL}>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/signpage" element={<SignPage />} />
-      <Route path="/termspage" element={<TermsPage />} />
-      <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/signpage" element={<SignPage />} />
+        <Route path="/termspage" element={<TermsPage />} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
 
-      <Route
-        path="/homepage"
-        element={
-          <HomePage
-            bookmarks={bookmarks}
-            onAddBookmark={handleAddBookmark}
-            onDeleteBookmark={handleDeleteBookmark}
-          />
-        }
-      />
+        <Route
+          path="/homepage"
+          element={
+            <HomePage
+              bookmarks={bookmarks}
+              onAddBookmark={handleAddBookmark}
+              onDeleteBookmark={handleDeleteBookmark}
+            />
+          }
+        />
 
-      <Route
-        path="/folderpage"
-        element={
-          <FolderPage
-            bookmarks={bookmarks}
-            onAddBookmark={handleAddBookmark}
-            onDeleteBookmark={handleDeleteBookmark}
-          />
-        }
-      />
-      <Route
-        path="/removeditemspage"
-        element={
-          <RemovedItemsPage
-            bookmarks={bookmarks}
-            onAddBookmark={handleAddBookmark}
-            onDeleteBookmark={handleDeleteBookmark}
-          />
-        }
-      />
-    </Routes>
+        <Route
+          path="/folderpage"
+          element={
+            <FolderPage
+              bookmarks={bookmarks}
+              onAddBookmark={handleAddBookmark}
+              onDeleteBookmark={handleDeleteBookmark}
+            />
+          }
+        />
+        <Route
+          path="/removeditemspage"
+          element={
+            <RemovedItemsPage
+              bookmarks={bookmarks}
+              onAddBookmark={handleAddBookmark}
+              onDeleteBookmark={handleDeleteBookmark}
+            />
+          }
+        />
+       </Routes>
+    </BrowserRouter>
   );
 }
 
