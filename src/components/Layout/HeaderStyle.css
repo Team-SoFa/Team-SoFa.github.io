@@ -1,0 +1,27 @@
+.header{
+    display:flex;
+    align-items: center;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    padding:1rem;
+    padding-top:2rem;
+    background: var(--main-bg);
+}
+.logo{ cursor:pointer; width: 50px; }
+
+.searchers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.user_info { display: flex; margin-right:2rem; align-items: center;}
+
+
+
+@media (max-width: 600px){
+    
+}
+

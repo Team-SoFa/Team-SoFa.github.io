@@ -1,0 +1,30 @@
+.toggle-case {
+    cursor: pointer;
+    width: 45px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: gray;
+    position: relative;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .toggle-case.toggled {
+    background-color: skyblue;
+  }
+  
+  .toggle-circle {
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: left 0.3s ease;
+  }
+  
+  .toggled .toggle-circle {
+    left: 23px;
+  }
+  

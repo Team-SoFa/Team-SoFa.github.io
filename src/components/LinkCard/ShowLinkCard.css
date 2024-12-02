@@ -1,0 +1,15 @@
+.bookmark-grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding:20px;
+}
+@media(max-width:950px) {
+    .bookmark-grid {
+        grid-template-columns: repeat(4, minmax(150px,1fr));
+    }
+}
+@media(max-width:768px) {
+    .bookmark-grid {
+        grid-template-columns: repeat(3, minmax(150px,1fr));
+    }
+}

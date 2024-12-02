@@ -1,0 +1,176 @@
+*{ margin:0; white-space: nowrap;    /* 자동 줄바꿈 방지 */}
+
+
+ /* 컴포넌트 가운데 정렬 */
+.main-style{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:3rem;
+    margin-bottom: 5rem;    /* footer와 간격 조정 */
+}
+
+.service-icon {
+    width:4rem;
+}
+/* 단순 각 섹션에 맞는 아이콘 */
+/* 추후 삭제*/
+
+.slogan{
+    font-size: 1.8rem;
+    margin: 1.3rem;
+}
+/* 서비스에서 가장 큰 글씨 */
+.title{
+    margin: 1.3rem;
+ }
+
+.button{
+    cursor: pointer;
+    padding:10px 20px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    background-color: #D1D1D1;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #C1C1C1;
+}
+/* button 컴포넌트 사용하면 필요 없음 */
+
+
+.content-img img{
+    margin:0.3rem;
+    width: 30rem;
+    height: 8rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.card{
+    display: flex;
+    align-items: center;
+    width:15rem;
+    height: 5.3rem;
+    background-color: cornsilk;
+    border-radius: 20px;
+    padding:1rem;
+    overflow: hidden;
+}
+.card img{
+    width:4.5rem;
+    height: 4.5rem;
+    border-radius: 10px;
+    margin: 0.6rem;
+}
+.card p{
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    white-space: normal;
+}
+
+
+@media(max-width:700px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:500px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}*{
+    margin:0;
+    white-space: nowrap;    /* 화면 크기에 따른 자동 줄바꿈 방지 */
+}
+
+ /* 컴포넌트 가운데 정렬 */
+.main-style{
+    user-select: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:3rem;
+    margin-bottom: 5rem;    /* footer와 간격 조정 */
+}
+
+.service-icon {
+    width:4rem;
+}
+/* 단순 각 섹션에 맞는 아이콘 */
+/* 추후 크기 맞는 아이콘을 제작하면 필요 없을듯*/
+
+.slogan{
+    font-size: 1.8rem;
+    margin: 1.3rem;
+}
+/* 서비스에서 가장 큰 글씨 */
+.title{
+    margin: 1.3rem;
+ }
+
+.button{
+    cursor: pointer;
+    padding:10px 20px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    background-color: #D1D1D1;
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: #C1C1C1;
+}
+/* button 컴포넌트 사용하면 필요 없음 */
+
+
+.content-img img{
+    margin:0.3rem;
+    width: 30rem;
+    height: 8rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.card{
+    display: flex;
+    align-items: center;
+    width:15rem;
+    height: 5.3rem;
+    background-color: cornsilk;
+    border-radius: 20px;
+    padding:1rem;
+    overflow: hidden;
+}
+.card img{
+    width:4.5rem;
+    height: 4.5rem;
+    border-radius: 10px;
+    margin: 0.6rem;
+}
+.card p{
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    white-space: normal;
+}
+
+
+@media(max-width:700px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:500px){
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

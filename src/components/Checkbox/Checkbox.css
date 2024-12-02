@@ -1,0 +1,19 @@
+.checkbox-container {
+    background-color: #fff;
+    border: none; /* 테두리 없음 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column; /* 수직 정렬 */
+    align-items: flex-start; /* 좌측 정렬 */
+    width: auto; /* 내용에 따라 크기 조정 */
+    max-width: 200px; /* 최대 너비 */
+    box-sizing: border-box; /* 패딩 포함 크기 */
+    border-radius: 10px; /* 모서리를 둥글게 설정 */
+  }
+  .checkbox-container label {
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  

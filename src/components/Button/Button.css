@@ -1,0 +1,73 @@
+/* src/components/Button.css */
+.btn {
+  cursor: pointer;
+  padding-block: 0.75rem; padding-inline: 1rem;
+  margin-left: 0.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  gap: 0.5rem;
+  color: black;  background: white;  
+  border:0.031rem solid var(--border-gray); border-radius: 5rem;
+  font-size: 1rem;
+}.btn:hover {color:white; background: var(--purple-hover);}
+
+/* === 메뉴버튼 === */
+.btn.menu-img{
+  width: 2.5rem; height: 2.5rem; padding-block: 0.5rem;
+}.btn.menu-img:hover{border-color: transparent; background: var(--purple-hover);}
+
+
+/* === Dropdown에서의 사용 === */
+.btn.dropdown-select{
+  display:none;
+  color:white; background:var(--purple-main);
+  margin-left: auto;
+  font-size: 0.7rem;
+  padding-block: 0.4rem; padding-inline: 0.5rem;
+}.btn.dropdown-select:hover{background: var(--purple-hover);}
+.btn.dropdown-delete{
+  padding:0px;
+  color:black;
+  background-color: transparent;
+}
+
+
+
+.tag{
+  user-select: none;
+  cursor: default;
+  padding:0.3rem;
+  margin:0.2rem;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  color:black;
+  background-color: #E8E5FF;
+} .tag:hover{color:black; background: #E8E5FF;}
+
+
+.btn.search{color:white; background: var(--purple-main); border-color: transparent;}
+.btn.search:hover{background: var(--purple-hover);}
+
+.btn.user-info{
+  padding: 0px;
+  align-content: center;
+  width: 2.5rem; height: 2.5rem;
+  overflow: hidden;
+}.btn.user-info .btn-img{width:2.5rem;height: 2.5rem;}
+
+/*LinkCard Hover Menus*/
+.btn.linkcard{
+  position:absolute;
+  padding:5px;
+  font-size: 0.7rem;
+  transition: opacity 0.3s ease;
+}
+.btn.linkcard:hover{color:white; background: var(--purple-hover);}
+
+.btn.linkcard.delete{top:8px;right: 8px;}
+.btn.linkcard.alarm{top:8px;right:35px;}
+.btn.linkcard.link{bottom:8px;left:8px;margin-left:0px;}
+
+/*BookmarkDetail edit button*/
+.btn.detail-edit{bottom: 10px; right: 10px; position: absolute;}

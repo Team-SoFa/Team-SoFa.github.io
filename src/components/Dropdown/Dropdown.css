@@ -1,0 +1,104 @@
+.dropdown{
+  position:relative;
+  cursor:pointer;
+  margin-left: 0.5rem;
+  border-radius: 5rem;
+}
+.dropdown-header{
+  display: flex;;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: auto; max-width: 5rem;
+  padding:0.7rem;
+  color:var(--font-gray);
+  background:white;
+  border:0.031rem solid var(--border-gray); border-radius: 5rem;
+}
+.dropdown-header:hover{color:white; background: var(--purple-hover);}
+.dropdown-header.open{color:white;background: var(--purple-focus);}
+
+.dropdown-header-img{
+  width:1rem; height: 1rem;
+}
+.dropdown-menu {
+  position:absolute;
+  width: 10rem;
+  height: auto; max-height: 10rem;
+  padding:0.1rem;
+  margin-top:0.2rem;
+
+  color:black;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  overflow-y: scroll;
+  z-index: 1000;
+}
+.dropdown-option{
+  display: flex;
+  align-items: center;
+  padding:0.4rem;
+  padding-left: 0.5rem;
+  margin:0.2rem;
+  border-radius: 1rem;
+  white-space:normal;
+}.dropdown-option:hover{ background:var(--gray-hover);}
+
+
+.dropdown.search-dropdown .dropdown-header{display: none;}
+.dropdown.search-dropdown .dropdown-menu{
+  margin-top:-1.5rem;
+  padding-top:1.5rem;
+  width:15.8rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  z-index: -1;
+}
+.dropdown.search-dropdown .dropdown-delete{font-size: 0.7rem; margin-left: auto;}
+
+
+/* === 드롭다운 펼침 화살표, 옵션선택버튼 === */
+.dropdown-folder-select .dropdown-header-img{order:2; margin-left: 0.2rem;}
+.dropdown-tag-select .dropdown-header-img{order:2; margin-left: 0.2rem;}
+.dropdown-folder-select .dropdown-select{display:flex;}
+.dropdown-tag-select .dropdown-select{display: flex;}
+
+
+/* === 알림 드롭다운 === */
+.dropdown.alarm .dropdown-menu{
+  width: 15rem;
+  right:-3rem; left:auto;
+}
+.dropdown.alarm .dropdown-option span{
+  white-space: normal;
+  word-break: break-word;
+}
+.dropdown-option-img{
+  width: 1rem; height: 1rem;
+  margin-right: 0.3rem;
+  border-radius: 5px;
+}
+.dropdown-badge {
+  position:absolute;
+  top:-0.2rem; right: -0.2rem;
+  width: 1rem;  height: 1rem;
+  background-color: #FF4500;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* === 링크카드 드롭다운 === */
+.dropdown.linkcard.folder-name {
+  position:absolute;
+  top:8px; left:8px;
+  margin-left: 0px;
+  font-size: 0.7rem;
+  transition: opacity 0.3s ease;
+}
+.dropdown.linkcard .dropdown-header {
+  display: flex; align-items: center;justify-content: center;
+  width: 1.2rem; height: 1.5rem;
+  padding:0.1rem;
+}
+.dropdown.linkcard .dropdown-menu{width:5rem; max-height: 3.5rem;}
