@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Team-SoFa.github.io/Team-SoFa.github.io",
   "name": "sofa",
+  "homepage": "https://Team-SoFa.github.io/Team-SoFa.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
