@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Team-SoFa.github.io/static/css/main.fdd70ada.chunk.css",
-    "main.js": "/Team-SoFa.github.io/static/js/main.7224132e.chunk.js",
-    "main.js.map": "/Team-SoFa.github.io/static/js/main.7224132e.chunk.js.map",
+    "main.css": "/Team-SoFa.github.io/static/css/main.c03dc10e.chunk.css",
+    "main.js": "/Team-SoFa.github.io/static/js/main.44860c8f.chunk.js",
+    "main.js.map": "/Team-SoFa.github.io/static/js/main.44860c8f.chunk.js.map",
     "runtime-main.js": "/Team-SoFa.github.io/static/js/runtime-main.f7c54f0c.js",
     "runtime-main.js.map": "/Team-SoFa.github.io/static/js/runtime-main.f7c54f0c.js.map",
-    "static/js/2.9bef3a9e.chunk.js": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js",
-    "static/js/2.9bef3a9e.chunk.js.map": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js.map",
+    "static/js/2.7fa05d78.chunk.js": "/Team-SoFa.github.io/static/js/2.7fa05d78.chunk.js",
+    "static/js/2.7fa05d78.chunk.js.map": "/Team-SoFa.github.io/static/js/2.7fa05d78.chunk.js.map",
     "index.html": "/Team-SoFa.github.io/index.html",
-    "precache-manifest.2c2bb6b027c0ed26ae8c28650c0ba6e4.js": "/Team-SoFa.github.io/precache-manifest.2c2bb6b027c0ed26ae8c28650c0ba6e4.js",
+    "precache-manifest.5b9e46ee4d3f571680035eb4224e8339.js": "/Team-SoFa.github.io/precache-manifest.5b9e46ee4d3f571680035eb4224e8339.js",
     "service-worker.js": "/Team-SoFa.github.io/service-worker.js",
-    "static/css/main.fdd70ada.chunk.css.map": "/Team-SoFa.github.io/static/css/main.fdd70ada.chunk.css.map",
-    "static/js/2.9bef3a9e.chunk.js.LICENSE.txt": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js.LICENSE.txt",
+    "static/css/main.c03dc10e.chunk.css.map": "/Team-SoFa.github.io/static/css/main.c03dc10e.chunk.css.map",
+    "static/js/2.7fa05d78.chunk.js.LICENSE.txt": "/Team-SoFa.github.io/static/js/2.7fa05d78.chunk.js.LICENSE.txt",
     "static/media/Typography.css": "/Team-SoFa.github.io/static/media/Pretendard-SemiBold.subset.3ba9cd1e.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.f7c54f0c.js",
-    "static/js/2.9bef3a9e.chunk.js",
-    "static/css/main.fdd70ada.chunk.css",
-    "static/js/main.7224132e.chunk.js"
+    "static/js/2.7fa05d78.chunk.js",
+    "static/css/main.c03dc10e.chunk.css",
+    "static/js/main.44860c8f.chunk.js"
   ]
 }
