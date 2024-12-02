@@ -28,7 +28,6 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/signpage" element={<SignPage />} />
@@ -67,7 +66,6 @@ function App() {
           }
         />
        </Routes>
-    </BrowserRouter>
   );
 }
 
