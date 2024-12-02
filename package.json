@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Team-SoFa.github.io/Team-SoFa.github.io",
   "name": "sofa",
   "version": "0.1.0",
   "private": true,
@@ -41,6 +42,5 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
-  },
-  "homepage": "https://Team-SoFa.github.io/Team-SoFa.github.io"
+  }
 }
