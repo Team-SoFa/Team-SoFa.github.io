@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.3c796efd.chunk.css",
-    "main.js": "/static/js/main.e26f1c3f.chunk.js",
-    "main.js.map": "/static/js/main.e26f1c3f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.167eaf22.js",
-    "runtime-main.js.map": "/static/js/runtime-main.167eaf22.js.map",
-    "static/js/2.9bef3a9e.chunk.js": "/static/js/2.9bef3a9e.chunk.js",
-    "static/js/2.9bef3a9e.chunk.js.map": "/static/js/2.9bef3a9e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5ac6f207a8238a257dde9584179b5d0c.js": "/precache-manifest.5ac6f207a8238a257dde9584179b5d0c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.3c796efd.chunk.css.map": "/static/css/main.3c796efd.chunk.css.map",
-    "static/js/2.9bef3a9e.chunk.js.LICENSE.txt": "/static/js/2.9bef3a9e.chunk.js.LICENSE.txt",
-    "static/media/Typography.css": "/static/media/Pretendard-SemiBold.subset.3ba9cd1e.woff2"
+    "main.css": "/Team-SoFa.github.io/static/css/main.fdd70ada.chunk.css",
+    "main.js": "/Team-SoFa.github.io/static/js/main.1cf65cb5.chunk.js",
+    "main.js.map": "/Team-SoFa.github.io/static/js/main.1cf65cb5.chunk.js.map",
+    "runtime-main.js": "/Team-SoFa.github.io/static/js/runtime-main.f7c54f0c.js",
+    "runtime-main.js.map": "/Team-SoFa.github.io/static/js/runtime-main.f7c54f0c.js.map",
+    "static/js/2.9bef3a9e.chunk.js": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js",
+    "static/js/2.9bef3a9e.chunk.js.map": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js.map",
+    "index.html": "/Team-SoFa.github.io/index.html",
+    "precache-manifest.bfe897f17f0aba7c900a2ac750126fe3.js": "/Team-SoFa.github.io/precache-manifest.bfe897f17f0aba7c900a2ac750126fe3.js",
+    "service-worker.js": "/Team-SoFa.github.io/service-worker.js",
+    "static/css/main.fdd70ada.chunk.css.map": "/Team-SoFa.github.io/static/css/main.fdd70ada.chunk.css.map",
+    "static/js/2.9bef3a9e.chunk.js.LICENSE.txt": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js.LICENSE.txt",
+    "static/media/Typography.css": "/Team-SoFa.github.io/static/media/Pretendard-SemiBold.subset.3ba9cd1e.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.167eaf22.js",
+    "static/js/runtime-main.f7c54f0c.js",
     "static/js/2.9bef3a9e.chunk.js",
-    "static/css/main.3c796efd.chunk.css",
-    "static/js/main.e26f1c3f.chunk.js"
+    "static/css/main.fdd70ada.chunk.css",
+    "static/js/main.1cf65cb5.chunk.js"
   ]
 }
