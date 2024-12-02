@@ -28,7 +28,7 @@ function App() {
   };
 
   return (
-    <Routes>
+    <Routes basename={process.env.REACT_APP_API_BASE_URL}>
       <Route path="/" element={<LandingPage />} />
       <Route path="/signpage" element={<SignPage />} />
       <Route path="/termspage" element={<TermsPage />} />
