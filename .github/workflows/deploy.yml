@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: |
           export NODE_OPTIONS=--openssl-legacy-provider
-          npm run build
+          CI=false npm run build
 
       # 5. 배포 (GitHub Pages 예시)
       - name: Deploy to GitHub Pages
