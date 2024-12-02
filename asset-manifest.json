@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Team-SoFa.github.io/static/css/main.fdd70ada.chunk.css",
-    "main.js": "/Team-SoFa.github.io/static/js/main.1cf65cb5.chunk.js",
-    "main.js.map": "/Team-SoFa.github.io/static/js/main.1cf65cb5.chunk.js.map",
+    "main.js": "/Team-SoFa.github.io/static/js/main.d67c7884.chunk.js",
+    "main.js.map": "/Team-SoFa.github.io/static/js/main.d67c7884.chunk.js.map",
     "runtime-main.js": "/Team-SoFa.github.io/static/js/runtime-main.f7c54f0c.js",
     "runtime-main.js.map": "/Team-SoFa.github.io/static/js/runtime-main.f7c54f0c.js.map",
     "static/js/2.9bef3a9e.chunk.js": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js",
     "static/js/2.9bef3a9e.chunk.js.map": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js.map",
     "index.html": "/Team-SoFa.github.io/index.html",
-    "precache-manifest.bfe897f17f0aba7c900a2ac750126fe3.js": "/Team-SoFa.github.io/precache-manifest.bfe897f17f0aba7c900a2ac750126fe3.js",
+    "precache-manifest.4eef8f8bdb080edd1328bca29e77dbd8.js": "/Team-SoFa.github.io/precache-manifest.4eef8f8bdb080edd1328bca29e77dbd8.js",
     "service-worker.js": "/Team-SoFa.github.io/service-worker.js",
     "static/css/main.fdd70ada.chunk.css.map": "/Team-SoFa.github.io/static/css/main.fdd70ada.chunk.css.map",
     "static/js/2.9bef3a9e.chunk.js.LICENSE.txt": "/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f7c54f0c.js",
     "static/js/2.9bef3a9e.chunk.js",
     "static/css/main.fdd70ada.chunk.css",
-    "static/js/main.1cf65cb5.chunk.js"
+    "static/js/main.d67c7884.chunk.js"
   ]
 }
