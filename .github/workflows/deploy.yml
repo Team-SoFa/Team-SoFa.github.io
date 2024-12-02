@@ -35,8 +35,8 @@ jobs:
           CI=false npm run build
 
       # 5. 배포 (GitHub Pages 예시)
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.API_ACCESS_TOKEN }}
-          publish_dir: ./build # 빌드된 React 앱 디렉토리
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./build
