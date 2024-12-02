@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbee0001015fa8c924c26b095370a16e",
+    "revision": "456f5b0599e97efda815cb76005e9672",
     "url": "https://Team-SoFa.github.io/Team-SoFa.github.io/index.html"
   },
   {
-    "revision": "ba7ffac34b83ba30d491",
+    "revision": "7ecd2527c107eaf826da",
     "url": "https://Team-SoFa.github.io/Team-SoFa.github.io/static/css/main.335ad285.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://Team-SoFa.github.io/Team-SoFa.github.io/static/js/2.9bef3a9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba7ffac34b83ba30d491",
-    "url": "https://Team-SoFa.github.io/Team-SoFa.github.io/static/js/main.b7fdebfc.chunk.js"
+    "revision": "7ecd2527c107eaf826da",
+    "url": "https://Team-SoFa.github.io/Team-SoFa.github.io/static/js/main.3c915b5f.chunk.js"
   },
   {
     "revision": "0df4a0adb0ffd85c7942",
