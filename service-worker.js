@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://Team-SoFa.github.io/Team-SoFa.github.io/precache-manifest.fbe2a9aef31beb559b6a9d5a91adca42.js"
+  "https://Team-SoFa.github.io/Team-SoFa.github.io/precache-manifest.27d250e793cdd3afcde096ade323addf.js"
 );
 
 self.addEventListener('message', (event) => {
