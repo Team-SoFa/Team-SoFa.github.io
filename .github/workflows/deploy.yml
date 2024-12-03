@@ -26,7 +26,8 @@ jobs:
       # 3. 환경변수 설정 (.env 파일 생성)
       - name: Set environment variables
         run: |
-          echo "REACT_APP_API_BASE_URL=${{ secrets.API_BASE_URL }}" >> .env
+          echo "REACT_APP_API_BASE_URL=${{ secrets.REACT_APP_API_BASE_URL }}" >> .env
+          cat .env  # 디버깅용
 
       # 4. 빌드 실행
       - name: Build
@@ -38,5 +39,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.TOKEN }}  # 기본 GitHub token 사용
           publish_dir: ./build
