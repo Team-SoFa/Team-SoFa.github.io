@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Team-SoFa.github.io/static/css/main.30fa7c1c.chunk.css",
+    "main.js": "/Team-SoFa.github.io/static/js/main.748d3781.chunk.js",
+    "main.js.map": "/Team-SoFa.github.io/static/js/main.748d3781.chunk.js.map",
+    "runtime-main.js": "/Team-SoFa.github.io/static/js/runtime-main.f7c54f0c.js",
+    "runtime-main.js.map": "/Team-SoFa.github.io/static/js/runtime-main.f7c54f0c.js.map",
+    "static/js/2.75631837.chunk.js": "/Team-SoFa.github.io/static/js/2.75631837.chunk.js",
+    "static/js/2.75631837.chunk.js.map": "/Team-SoFa.github.io/static/js/2.75631837.chunk.js.map",
+    "index.html": "/Team-SoFa.github.io/index.html",
+    "precache-manifest.4c9de86648f4fe7b89409c5e37629e2e.js": "/Team-SoFa.github.io/precache-manifest.4c9de86648f4fe7b89409c5e37629e2e.js",
+    "service-worker.js": "/Team-SoFa.github.io/service-worker.js",
+    "static/css/main.30fa7c1c.chunk.css.map": "/Team-SoFa.github.io/static/css/main.30fa7c1c.chunk.css.map",
+    "static/js/2.75631837.chunk.js.LICENSE.txt": "/Team-SoFa.github.io/static/js/2.75631837.chunk.js.LICENSE.txt",
+    "static/media/Typography.css": "/Team-SoFa.github.io/static/media/Pretendard-SemiBold.subset.3ba9cd1e.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7c54f0c.js",
+    "static/js/2.75631837.chunk.js",
+    "static/css/main.30fa7c1c.chunk.css",
+    "static/js/main.748d3781.chunk.js"
+  ]
+}
